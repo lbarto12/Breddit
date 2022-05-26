@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breddit</string>
+    <string name="create_acc_new_user_hint">nouveau nom d\'utilisateur</string>
+    <string name="create_acc_new_password_hint">nouveau mot de passe</string>
+    <string name="create_acc_confirm_password_hint">confirmez le mot de passe</string>
+    <string name="create_acc_button">créer compte</string>
+    <string name="create_post_title">Nouveau poste</string>
+    <string name="create_post_sub_title">Titre</string>
+    <string name="create_post_sub_content">Contenu</string>
+    <string name="create_post_sub_title_hint">De quoi veux-tu parler?</string>
+    <string name="create_post_sub_content_hint">Dites-nous vos pensées!</string>
+    <string name="create_post_button">Créer un message</string>
+    <string name="main_title">Messages récents</string>
+    <string name="signin_username_hint">nom d\'utilisateur</string>
+    <string name="signin_password_hint">mot de passe</string>
+    <string name="signin_no_account">Pas de compte?  S\'inscrire maintenant</string>
+    <string name="signin_button">S\'identifier</string>
+    <string name="viewpost_title">Titre</string>
+    <string name="viewpost_content">Contenu</string>
+    <string name="viewpost_comment_button">Commenter</string>
+    <string name="viewpost_comment_hint">Ajoutez votre commentaire...</string>
+    <string name="post_cell_title">Titre</string>
+    <string name="post_cell_preview">Pas de contenu</string>
+    <string name="post_comment_cell_user">Utilisateur</string>
+    <string name="post_comment_cell_content">Contenu</string>
+</resources>

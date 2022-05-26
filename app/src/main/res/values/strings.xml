@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Breddit</string>
+    <string name="create_acc_new_user_hint">new username</string>
+    <string name="create_acc_new_password_hint">new password</string>
+    <string name="create_acc_confirm_password_hint">confirm password</string>
+    <string name="create_acc_button">Create Account</string>
+
+    <string name="create_post_title">New Post</string>
+    <string name="create_post_sub_title">Title</string>
+    <string name="create_post_sub_content">Content</string>
+    <string name="create_post_sub_title_hint">What do you want to talk about?</string>
+    <string name="create_post_sub_content_hint">Tell us your thoughts!</string>
+    <string name="create_post_button">Create Post</string>
+
+    <string name="main_title">Recent Posts</string>
+
+    <string name="signin_username_hint">username</string>
+    <string name="signin_password_hint">password</string>
+    <string name="signin_no_account">No account?  Register now</string>
+    <string name="signin_button">Sign In</string>
+
+    <string name="viewpost_title">Title</string>
+    <string name="viewpost_content">Content</string>
+    <string name="viewpost_comment_button">Comment</string>
+    <string name="viewpost_comment_hint">Add your comment here...</string>
+
+    <string name="post_cell_title">Title</string>
+    <string name="post_cell_preview">No Preview</string>
+
+    <string name="post_comment_cell_user">Username</string>
+    <string name="post_comment_cell_content">Content</string>
+</resources>

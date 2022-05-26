@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#80F7D0DE"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/post_cell_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:fontFamily="@font/varela_round"
+            android:text="@string/post_cell_title"
+            android:textColor="#4E3108"
+            android:textSize="20sp"
+            android:translationX="50sp"
+            android:translationY="15sp" />
+
+        <ImageView
+            android:id="@+id/post_cell_profile_pic"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:alpha="0.5"
+            android:translationX="-20dp"
+            app:srcCompat="@drawable/breddit_logo" />
+
+        <TextView
+            android:id="@+id/post_cell_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/varela_round"
+            android:text="@string/post_cell_preview"
+            android:textColor="#4E3108"
+            android:textSize="12sp"
+            android:translationX="50sp"
+            android:translationY="45sp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
